@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.news.today.todayinformation.splash.FullScreenVideoView
+        android:id="@+id/vv_play"
+        style="@style/video_view_style" />
+
+
+ <!--   <ViewStub
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splash_vs"
+        android:layout="@layout/include_tv_tiaoguo"
+        />-->
+
+    <include layout="@layout/include_tv_tiaoguo" />
+
+
+</merge>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TodayInformation</string>
+    <string name="str_main_shanghai">上海</string>
+    <string name="str_main_hangzhou">杭州</string>
+    <string name="str_beijing">北京</string>
+    <string name="str_shenzhen">深圳</string>
+    <string name="bottom_show_behavior">com.news.today.todayinformation.main.hangzhou.design.BottomShowBehavior</string> />
+</resources>
