@@ -34,6 +34,7 @@ public class SplashActivity extends BaseActivity implements ISplashActivityContr
         initTimerPresenter();
         initListener();
         initVideo();
+        
     }
 
     private void initTimerPresenter() {
