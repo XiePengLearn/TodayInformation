@@ -53,6 +53,8 @@ public class MainActivityPresenter extends BasePresenter<IMainActivityContract.I
             }
         }
 
+
+
         Fragment mFragment = mFragments[mCurrentFragmentIndex];
         if (mFragment != null) {
             addAndShowFragment(mFragment);

@@ -146,6 +146,7 @@ public class MainActivity extends BaseActivity implements IMainActivityContract.
             rbMainHangzhou.playAnimation();
         }
     }
+    
 
     //shanghai 杭州
     private void handleTopPosition() {
