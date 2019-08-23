@@ -19,14 +19,14 @@ import butterknife.BindView;
  * Created by anson on 2018/4/24.
  */
 @ViewInject(mainlayoutid = R.layout.activity_splash)
-public class SplashActivity extends BaseActivity implements ISplashActivityContract.Iview{
+public class SplashActivity extends BaseActivity implements ISplashActivityContract.Iview {
 
     @BindView(R.id.vv_play)
     FullScreenVideoView mVideoView;
-//    @BindView(R.id.splash_vs)
-//    ViewStub mViewStub;
+    //    @BindView(R.id.splash_vs)
+    //    ViewStub mViewStub;
     @BindView(R.id.tv_splash_timer)
-    TextView mTvTimer;
+    TextView            mTvTimer;
     private ISplashActivityContract.IPresenter timerPresenter;
 
     @Override
@@ -34,7 +34,7 @@ public class SplashActivity extends BaseActivity implements ISplashActivityContr
         initTimerPresenter();
         initListener();
         initVideo();
-        
+
     }
 
     private void initTimerPresenter() {
@@ -43,8 +43,8 @@ public class SplashActivity extends BaseActivity implements ISplashActivityContr
     }
 
 
-
     //feature
+    //    feature
 
 
     private void initVideo() {
@@ -79,7 +79,8 @@ public class SplashActivity extends BaseActivity implements ISplashActivityContr
         /*if (TextUtils.equals(s, "跳过")) {
             View inflate = mViewStub.inflate();
             inflate.setVisibility(View.VISIBLE);
-            inflate.findViewById(R.id.tv_splash_timer).setOnClickListener(new View.OnClickListener() {
+            inflate.findViewById(R.id.tv_splash_timer).setOnClickListener(new View
+            .OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(SplashActivity.this, MainActivity.class));

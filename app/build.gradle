@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+//解决GBK 不可映射字符
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
 android {
     compileSdkVersion Integer.valueOf(compile_sdk_version)
     buildToolsVersion build_tools_version
